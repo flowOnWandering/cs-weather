@@ -1,0 +1,30 @@
+{
+  "name": "cs-weather",
+  "bin": {
+    "getweather": "./bin/weather.js",
+    "getcity": "./bin/city.js"
+  },
+  "version": "1.0.0",
+  "description": "查询天气的小工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowOnWandering/cs-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "city"
+  ],
+  "devDependencies": {
+    "yargs": "^6.5.0"
+  },
+  "author": "chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flowOnWandering/cs-weather/issues"
+  },
+  "homepage": "https://github.com/flowOnWandering/cs-weather#readme"
+}
